@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="temaPersonalizata" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000C40</item>
+        <item name="colorAccent">#0066FF</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition">@android:transition/slide_left</item>
+        <item name="android:windowBackground">@drawable/back</item>
+        <item name="android:colorBackgroundCacheHint">#3386EC</item>
+
+        <item name="android:textColorHint">#70000C40</item>
+    </style>
+</resources>

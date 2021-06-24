@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IstoricCurseActivity">
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jffont"
+        android:text="MeGaCar"
+        android:textColor="@color/colorWhite"
+        android:textSize="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_vizualizare_istoric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_istoric"
+
+        android:gravity="center"
+        android:textColor="#082630"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="80dp"
+        android:textSize="30dp"
+        android:background="@drawable/btn_back"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_name"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginRight="80dp" />
+
+    <ListView
+        android:id="@+id/lv_vizualizare_istoric_curse_curse"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:dividerHeight="5dp"
+        android:divider="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/btn_vizualizare_istoric_curse_oferite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vizualizare_istoric"
+
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_vizualizare_istoric_curse_oferite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/istoric_text_curse_oferite"
+        android:textSize="18dp"
+        android:background="@drawable/btn_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_vizualizare_istoric_curse_rezervate"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv_vizualizare_istoric_curse_curse"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/btn_vizualizare_istoric_curse_rezervate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/istoric_text_curse_cautate"
+        android:textSize="18dp"
+        android:background="@drawable/btn_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_vizualizare_istoric_curse_oferite"
+        app:layout_constraintTop_toBottomOf="@+id/lv_vizualizare_istoric_curse_curse"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

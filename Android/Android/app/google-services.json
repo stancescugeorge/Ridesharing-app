@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994392597950",
+    "project_id": "megacar-1131c",
+    "storage_bucket": "megacar-1131c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994392597950:android:07c674c09962d1671085ef",
+        "android_client_info": {
+          "package_name": "com.example.proiect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994392597950-unfhsfq1h7abpt1981s6rpsp2vdpobqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxOrE129jnNH0uAYO1aXGcTbl59g2eqd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994392597950-unfhsfq1h7abpt1981s6rpsp2vdpobqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

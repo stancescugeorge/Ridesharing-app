@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="temaAlertDialogPersonalizata" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:justificationMode">inter_word</item>
+        <item name="android:windowBackground">@drawable/back_sim_stroke</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+</resources>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">MeGaCar</string>
+
+    <string name="despre_noi_text">    Salut, %12$s si multumim ca folosesti MeGaCar!\n    Noi suntem %1$s %2$s si %3$s %4$s, creatorii aplicatiei
+         si studenti la %5$s (specializarea: %6$s), parte din %7$s. Aceasta a fost fondata in anul %8$d si ne mandrim sa spunem ca este
+         una dintre cele mai prestigioase universitati din Romania.
+        \n    Platforma de ridesharing a pornit de la un proiect din anul 3 pentru materia Dispozitive si aplicatii mobile si
+         include optiunile de adaugare curse la ocazie si cautare parteneri de drum pe baza unui cont de utilizator.
+        \n    Pentru opinii si recomandari ne gasesti usor pe Facebook sau la facultate, in %9$s. Ne poti contacta si telefonic:
+        \nGeorge - %10$s,\nMarian - %11$s.
+        \n    Speram sa ai parte de o experienta cat mai placuta si de calatorii de neuitat! :)</string>
+    <string name="despre_noi_titlu">Despre noi</string>
+    <string name="text_ok_btn_dialog_despre_noi">OK</string>
+
+    <string name="main_text_nume_parola_incorecte">Date de logare incorecte!</string>
+    <string name="text_validare_parola">Parola trebuie sa aiba minim 6 caractere!</string>
+    <string name="text_validare_confirmaParola">Campurile Parola si Confirma parola trebuie sa aiba acelasi continut!</string>
+    <string name="text_validare_numePrenume">Introduceti minim 5 caractere in campul Nume si prenume!</string>
+    <string name="text_validare_telefon">Numarul de telefon are 10 cifre!</string>
+    <string name="text_validare_nume_utilizator">Numele de utilizator are minim 3 caractere!</string>
+
+    <string name="text_nume_de_utilizator">Nume de utilizator</string>
+    <string name="text_parola">Parola</string>
+    <string name="main_text_intrare">Intrare</string>
+    <string name="main_text_creare_cont">Creare Cont</string>
+    <string name="main_text_nu_sunteti_inregistrat">Nu sunteti inregistrat?</string>
+    <string name="main_text_tine_ma_minte">Tine-ma minte</string>
+    <string name="text_creareCont_succes">Contul a fost creat cu succes!</string>
+
+    <string name="text_megacar">MeGaCar</string>
+    <string name="text_confirma_parola">Confirma Parola</string>
+    <string name="text_nume_prenume">Nume si prenume</string>
+    <string name="text_telefon">Telefon</string>
+    <string name="text_creare_cont_nou">Creare Cont Nou</string>
+    <string name="text_revenire_la_pagina_de_conectare">revenire la pagina de conectare</string>
+    <string name="text_eroare">A aparut o eroare! Va rugam sa va reconectati!</string>
+    <string name="continutPr_text_unde_pleci_cu_masina">Unde pleci cu masina?</string>
+    <string name="continutPr_text_ofera_o_cursa">Ofera o cursa</string>
+    <string name="continutPr_text_unde_vrei_sa_ajungi">Unde vrei sa ajungi?</string>
+    <string name="continutPr_text_cauta_o_cursa">Cauta o cursa</string>
+    <string name="continutPr_text_verifica_istoric">Verifica istoricul curselor:</string>
+    <string name="text_istoric">Istoric</string>
+    <string name="continutPr_text_conditii_de_circulatie">Conditii de circulatie in contextul actual:</string>
+    <string name="continutPr_text_conditii">Conditii</string>
+
+    <string name="text_cursa_adaugata_succes">Cursa a fost adaugata cu succes!</string>
+    <string name="text_validare_plecare">Locatia de plecare trebuie sa aiba minim 3 caractere!</string>
+    <string name="text_validare_destinatie">Destinatia trebuie sa aiba minim 3 caractere!</string>
+    <string name="text_validare_data">Completati corespunzator campul data!</string>
+    <string name="text_validare_ora">Completati corespunzator campul ora: hh:mi!</string>
+    <string name="text_validare_durata">Durata este un numar > 0!</string>
+    <string name="text_validare_pret">Pretul este un numar cel putin 0!</string>
+    <string name="oferaCursa_text_adaugare_cursa">Adaugare Cursa</string>
+    <string name="text_locatie_de_plecare">Locatie de plecare</string>
+    <string name="text_locatie_de_destinatie">Locatie de destinatie</string>
+    <string name="text_data">Data</string>
+    <string name="text_hh_mm">HH:MM</string>
+    <string name="text_durata_minute">Durata (minute)</string>
+    <string name="text_pret">Pret</string>
+    <string name="text_adaugare_cursa_noua">Adaugare cursa noua</string>
+    <string name="text_revenire_la_pagina_principala">Revenire la pagina principala</string>
+
+    <string name="text_cautare">Cautare</string>
+    <string name="istoric_text_curse_oferite">Curse Oferite</string>
+    <string name="istoric_text_curse_cautate">Curse rezervate</string>
+    <string name="text_cursa_rezervata_succes">Cursa a fost rezervata cu succes!</string>
+    <string name="text_curse_cautate_rezerva">Rezerva</string>
+    <string name="text_anuleaza">Anuleaza</string>
+    <string name="profil_text_actualizeaza_cont">Actualizeaza cont</string>
+    <string name="profil_text_sterge_cont">Sterge cont</string>
+    <string name="curseAdapter_text_numele_soferului">Numele soferului</string>
+    <string name="curseAdapter_text_format_telefon">0000000000</string>
+    <string name="text_exista_nume_utilizator">Exista deja un cont cu acest nume de utilizator!</string>
+    <string name="text_succes_actualizare_utilizator">Contul a fost actualizat cu succes!</string>
+    <string name="text_succes_stergere_cont">Contul a fost sters cu succes!</string>
+
+    <string name="text_destinatie_diferita_plecare">Destinatia trebuie sa difere de punctul de plecare!</string>
+    <string name="text_selectati_cursa">Selectati o cursa!</string>
+    <string name="text_rezervare_propria_cursa">Nu puteti rezerva propria cursa!</string>
+    <string name="text_indisponibilitate_cursa">Momentan, nu exista curse disponibile pentru dumneavoastra!</string>
+    <string name="profil_text_deconectare">Deconectare</string>
+    <string name="text_succes_deconectare">V-ati deconectat!</string>
+    <string name="text_detalii_cursa">Detalii cursa</string>
+    <string name="text_modifica">Modifica</string>
+    <string name="text_sterge">Sterge</string>
+    <string name="text_succes_update_cursa">Cursa a fost actualizata cu succes!</string>
+    <string name="text_succes_stergere_cursa">Cursa a fost stearsa!</string>
+    <string name="text_renunta">Renunta</string>
+    <string name="text_salveaza">Salveaza</string>
+
+    <string name="text_rating">Va rugam sa ne oferiti rating!</string>
+    <string name="text_multumire_recenzie">Multumim pentru recenzie!</string>
+
+</resources>
